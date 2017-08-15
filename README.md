@@ -157,6 +157,18 @@ Measured::Weight.unit_names_with_aliases
   * in, inch, inches
   * ft, foot, feet
   * yd, yard, yards
+* `Measured::Area`
+  * mm2, square_millimeter, square_millimeters, square_millimetre, square_millimetres
+  * cm2, square_centimeter, square_centimeters, square_centimetre, square_centimetres
+  * m2, square_meter, square_meters, square_metre, square_metres
+  * km2, square_kilometer, square_kilometers, square_kilometre, square_kilometres
+  * mi2, square_mile, square_miles
+  * yd2, square_yard, square_yards
+  * ft2, square_foot, square_feet
+  * in2, square_inch, square_inches
+  * ha, hectare, hectares
+  * ac, acre, acres
+
 
 You can skip these and only define your own units by doing:
 

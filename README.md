@@ -157,6 +157,21 @@ Measured::Weight.unit_names_with_aliases
   * in, inch, inches
   * ft, foot, feet
   * yd, yard, yards
+* `Measured::Volume`
+  * l, litre, liter, litres, liters
+  * ml, millilitre, milliliter, milliliter, milliliters
+  * m3, cubic_meter, cubic_meters, cubic_metre, cubic_metres
+  * ft3, cubic_foot, cubic_feet
+  * in3, cubic_inch, cubic_inches
+  * gal, imp_gal, imperial_gallon, imperial_gallons
+  * us_gal, us_gallon, us_gallons, us_liquid_gallon, us_liquid_gallons
+  * qt, q, imp_qt, imperial_quart, imperial_quarts
+  * us_qt, us_quart, us_quarts, us_fluid_quart, us_fluid_quarts, us_liquid_quart, us_liquid_quarts
+  * pt, p, imp_pt, imperial_pint, imperial_pints
+  * us_pt, us_pint, us_pints, us_liquid_pint, us_liquid_pints
+  * oz, fl_oz, imp_fl_oz, fluid_ounce, imperial_fluid_ounce, fluid_ounces, imperial_fluid_ounces
+  * us_oz, us_fl_oz, us_fluid_ounce, us_fluid_ounces
+
 
 You can skip these and only define your own units by doing:
 
@@ -199,6 +214,7 @@ All units and classes are namespaced by default, but can be aliased in your appl
 ```ruby
 Weight = Measured::Weight
 Length = Measured::Length
+Volume = Measured::Volume
 ```
 
 ## Alternatives

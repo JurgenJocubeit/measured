@@ -211,6 +211,7 @@ All units and classes are namespaced by default, but can be aliased in your appl
 ```ruby
 Weight = Measured::Weight
 Length = Measured::Length
+Area   = Measured::Area
 ```
 
 ## Alternatives
